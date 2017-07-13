@@ -10,14 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
-
-    var labelGenerator: CustomLabel?
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        labelGenerator = CustomLabel(view: self.view)
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,16 +22,16 @@ class ViewController: UIViewController {
     }
 
     @IBAction func success(_ sender: Any) {
-        labelGenerator!.success()
-    }
-
-    @IBAction func warning(_ sender: Any) {
-        labelGenerator!.warning()
+        print("success button pressed!")
     }
     
+    @IBAction func warning(_ sender: Any) {
+        print("warning button pressed!")
+    }
     
     @IBAction func info(_ sender: Any) {
-        labelGenerator!.info()
+        print("info button pressed!")
     }
+    
 }
 

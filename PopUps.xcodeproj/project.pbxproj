@@ -12,7 +12,6 @@
 		1780CB761F1824BD00708585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1780CB741F1824BD00708585 /* Main.storyboard */; };
 		1780CB781F1824BD00708585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1780CB771F1824BD00708585 /* Assets.xcassets */; };
 		1780CB7B1F1824BD00708585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1780CB791F1824BD00708585 /* LaunchScreen.storyboard */; };
-		1780CB831F182EE000708585 /* customLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1780CB821F182EE000708585 /* customLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +22,6 @@
 		1780CB771F1824BD00708585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1780CB7A1F1824BD00708585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1780CB7C1F1824BD00708585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1780CB821F182EE000708585 /* customLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +57,6 @@
 				1780CB701F1824BD00708585 /* AppDelegate.swift */,
 				1780CB721F1824BD00708585 /* ViewController.swift */,
 				1780CB741F1824BD00708585 /* Main.storyboard */,
-				1780CB821F182EE000708585 /* customLabel.swift */,
 				1780CB771F1824BD00708585 /* Assets.xcassets */,
 				1780CB791F1824BD00708585 /* LaunchScreen.storyboard */,
 				1780CB7C1F1824BD00708585 /* Info.plist */,
@@ -140,7 +137,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1780CB731F1824BD00708585 /* ViewController.swift in Sources */,
-				1780CB831F182EE000708585 /* customLabel.swift in Sources */,
 				1780CB711F1824BD00708585 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

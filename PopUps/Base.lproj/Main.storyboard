@@ -26,7 +26,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Success"/>
                                 <connections>
-                                    <action selector="success:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CxT-pu-mAf"/>
+                                    <action selector="success:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hl2-IG-L2j"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fgW-ft-uN1">
@@ -34,7 +34,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Warning"/>
                                 <connections>
-                                    <action selector="warning:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZqZ-2h-XB8"/>
+                                    <action selector="warning:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tkf-Zf-bsC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0s-W0-SuH">
@@ -42,7 +42,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Info"/>
                                 <connections>
-                                    <action selector="info:" destination="BYZ-38-t0r" eventType="touchDown" id="TXt-VL-eIN"/>
+                                    <action selector="info:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nh8-gP-nZh"/>
                                 </connections>
                             </button>
                         </subviews>
