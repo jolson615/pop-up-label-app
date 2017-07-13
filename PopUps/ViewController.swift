@@ -9,10 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
 
+    var labelGenerator: CustomLabel?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        labelGenerator = CustomLabel(view: self.view)
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +25,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func success(_ sender: Any) {
+        labelGenerator!.success()
+    }
 
+    @IBAction func warning(_ sender: Any) {
+        labelGenerator!.warning()
+    }
+    
+    
+    @IBAction func info(_ sender: Any) {
+        labelGenerator!.info()
+    }
 }
 
