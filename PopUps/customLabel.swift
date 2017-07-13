@@ -18,7 +18,7 @@ class CustomLabel {
     }
     
     func success() {
-        print("Button pressed.")
+        print("Success button pressed.")
         let label = UILabel(frame: CGRect(x: 0, y: 0, width: 225, height: 40))
         label.center = CGPoint(x: 160, y: 284)
         label.textAlignment = NSTextAlignment.center
@@ -28,7 +28,7 @@ class CustomLabel {
     }
     
     func warning() {
-        print("Button pressed.")
+        print("Warning button pressed.")
         let label = UILabel(frame: CGRect(x: 0, y: 0, width: 225, height: 40))
         label.center = CGPoint(x: 160, y: 284)
         label.textAlignment = NSTextAlignment.center
@@ -38,7 +38,7 @@ class CustomLabel {
     }
     
     func info() {
-        print("Button pressed.")
+        print("Info button pressed.")
         let label = UILabel(frame: CGRect(x: 0, y: 0, width: 225, height: 80))
         label.center = CGPoint(x: 160, y: 284)
         label.textAlignment = NSTextAlignment.center
